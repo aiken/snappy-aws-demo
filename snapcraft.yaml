@@ -8,7 +8,7 @@ description: This is a simple go webserver. It is a service
 services:
   webserver:
     description: "aws demo"
-    start: bin/golang-http
+    start: bin/aws-demo
     caps:
      - network-client
      - network-service    
