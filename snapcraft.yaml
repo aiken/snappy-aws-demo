@@ -1,13 +1,13 @@
-name: go-webserver
-vendor: XiaoGuo, Liu <xiaoguo.liu@canonical.com>
+name: aws-demo
+vendor: aiken.qi@qq.com
 icon: go.png
-version: 1.0.7
-summary: Go webserver
+version: 1.0.1
+summary: demo aws on snappy
 description: This is a simple go webserver. It is a service
 
 services:
   webserver:
-    description: "Go websever"
+    description: "aws demo"
     start: bin/golang-http
     caps:
      - network-client
@@ -17,5 +17,5 @@ parts:
   webserver:
     plugin: go
     go-packages:
-      - github.com/liu-xiao-guo/golang-http
+      - github.com/aiken/aws-demo
 
